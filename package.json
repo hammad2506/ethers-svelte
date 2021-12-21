@@ -1,0 +1,50 @@
+{
+  "name": "ethers-svelte",
+  "version": "1.0.0",
+  "description": "ethers js as a collection of stores for Svelte",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/ethers-store.js",
+  "license": "MIT",
+  "repository": "hammad2506/ethers-svelte",
+  "author": {
+    "name": "Hammad Balkhi",
+    "email": "shammad2506@gmail.com"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "svelte": "^3.44.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-svelte3": "^3.2.1",
+    "ethers": "^5.5.2",
+    "release-it": "^14.11.8",
+    "rollup": "^2.61.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-svelte": "^7.1.0",
+    "sirv-cli": "^1.0.14"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "sveltekit",
+    "svelte",
+    "ethereum",
+    "ethers",
+    "web3",
+    "store"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ]
+}
