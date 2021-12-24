@@ -139,8 +139,8 @@ function getChainData(chainId = "") {
 }
 
 function getChainStore(key) {
-  if (!allStores[key]) throw new Error(`Chain Store ${key} does not exist`);
-  return allStores[name];
+  if (!allStores[key]) console.error(`Chain Store ${key} does not exist`);
+  return allStores[key];
 }
 
 function createContractStore(address, abi, signerOrProviderStore) {

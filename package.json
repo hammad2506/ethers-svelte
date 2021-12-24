@@ -1,7 +1,7 @@
 {
   "name": "ethers-svelte",
   "version": "1.0.0",
-  "description": "ethers js as a collection of stores for Svelte",
+  "description": "Use ethers js as a collection of stores for Svelte",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "svelte": "src/ethers-store.js",
@@ -12,7 +12,9 @@
     "email": "shammad2506@gmail.com"
   },
   "scripts": {
-    "build": "rollup -c"
+    "test": "echo \"No test specified\"",
+    "build": "rollup -c",
+    "publish": "npx np"
   },
   "dependencies": {
     "svelte": "^3.44.3"
